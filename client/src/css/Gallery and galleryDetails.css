@@ -1,0 +1,1496 @@
+@import url("https://fonts.googleapis.com/css2?family=Estonia&family=Open+Sans:ital,wght@1,300&family=Square+Peg&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backgroundColor {
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/15/02/07/snack-2403881_1280.png");
+}
+
+/* gallery: */
+
+@media screen and (max-width: 767px) {
+  img.gallery {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    margin-left: 55px;
+  }
+
+  div.field {
+    margin-left: 200px;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  img.gallery {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-left: 55px;
+  }
+
+  div.field {
+    margin-left: 505px;
+    width: 150px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  img.gallery {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-left: 55px;
+  }
+
+  div.field {
+    margin-left: 505px;
+    width: 150px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  img.gallery {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+
+  div.field {
+    margin-left: 650px;
+    direction: rtl;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1264px) {
+  img.gallery {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 85px;
+    margin-top: 20px;
+  }
+
+  div.field {
+    margin-left: 700px;
+    direction: rtl;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  img.gallery {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 110px;
+    margin-top: 20px;
+  }
+
+  div.field {
+    margin-left: 770px;
+    direction: rtl;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  img.gallery {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+
+  div.field {
+    margin-left: 950px;
+    direction: rtl;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  img.gallery {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+
+  div.field {
+    margin-left: 970px;
+    direction: rtl;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  img.gallery {
+    width: 340px;
+    height: 340px;
+    margin-right: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+
+  div.field {
+    margin-left: 1050px;
+    direction: rtl;
+    width: 200px;
+  }
+}
+
+/* gallery details: */
+
+/* donats: */
+@media screen and (max-width: 767px) {
+  img.donats {
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .orderD {
+    margin-left: 160px;
+    font-size: 11px;
+  }
+
+  p.describeDonats {
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+  p.priceDonats {
+    margin-left: 45px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  p.priceSpecialDonats {
+    margin-left: 100px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  img.donats {
+    margin-left: 150px;
+    margin-top: 10px;
+  }
+
+  .orderD {
+    margin-left: 280px;
+  }
+
+  p.describeDonats {
+    margin-left: 200px;
+    margin-top: 10px;
+  }
+
+  p.priceDonats {
+    margin-left: 180px;
+    margin-top: 10px;
+  }
+
+  p.priceSpecialDonats {
+    margin-left: 225px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  img.donats {
+    margin-left: 300px;
+    margin-top: 10px;
+  }
+
+  .orderD {
+    margin-left: 435px;
+  }
+
+  p.describeDonats {
+    margin-left: 360px;
+    margin-top: 10px;
+  }
+
+  p.priceDonats {
+    margin-left: 325px;
+    margin-top: 10px;
+  }
+
+  p.priceSpecialDonats {
+    margin-left: 390px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  img.donats {
+    margin-left: 420px;
+    margin-top: 10px;
+  }
+
+  .orderD {
+    margin-left: 555px;
+  }
+
+  p.describeDonats {
+    margin-left: 470px;
+    margin-top: 10px;
+  }
+
+  p.priceDonats {
+    margin-left: 450px;
+    margin-top: 10px;
+  }
+
+  p.priceSpecialDonats {
+    margin-left: 510px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  img.donats {
+    margin-left: 420px;
+    margin-top: 10px;
+  }
+
+  .orderD {
+    margin-left: 555px;
+  }
+
+  p.describeDonats {
+    margin-left: 470px;
+    margin-top: 10px;
+  }
+
+  p.priceDonats {
+    margin-left: 450px;
+    margin-top: 10px;
+  }
+
+  p.priceSpecialDonats {
+    margin-left: 510px;
+  }
+
+  svg.svg-inline--fa.fa-star.iconStar {
+    display: none;
+  }
+}
+
+/* alpha: */
+@media screen and (max-width: 768px) {
+  img.picsDetails {
+    margin-left: 150px;
+  }
+
+  p.describeAlphaphores {
+    margin-left: 260px;
+    margin-top: 10px;
+  }
+
+  p.priceAlphaphores {
+    margin-left: 290px;
+  }
+
+  .orderA {
+    margin-left: 290px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  img.picsDetails {
+    margin-left: 300px;
+  }
+
+  p.describeAlphaphores {
+    margin-left: 400px;
+    margin-top: 10px;
+  }
+
+  p.priceAlphaphores {
+    margin-left: 430px;
+  }
+
+  .orderA {
+    margin-left: 440px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  img.picsDetails {
+    margin-left: 400px;
+  }
+
+  p.describeAlphaphores {
+    margin-left: 500px;
+    margin-top: 10px;
+  }
+
+  p.priceAlphaphores {
+    margin-left: 530px;
+  }
+
+  .orderA {
+    margin-left: 530px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  img.picsDetails {
+    margin-left: 400px;
+  }
+
+  p.describeAlphaphores {
+    margin-left: 500px;
+    margin-top: 10px;
+  }
+
+  p.priceAlphaphores {
+    margin-left: 530px;
+  }
+
+  .orderA {
+    margin-left: 530px;
+  }
+}
+
+/* simba: */
+/* @media screen and (max-width: 767px) {
+  .orderS {
+    margin-left: 200px;
+  }
+
+  img.picsDetails {
+    margin-left: 50px;
+  }
+
+  p.priceSimba {
+    margin-left: 200px;
+  }
+
+  p.describeSimba {
+    margin-left: 200px;
+    margin-top: 10px;
+  }
+} */
+
+/* @media screen and (min-width: 768px) {
+  .orderS {
+    margin-left: 300px;
+  }
+
+  p.priceSimba {
+    margin-left: 300px;
+  }
+
+  p.describeSimba {
+    margin-left: 305px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .orderS {
+    margin-left: 300px;
+  }
+
+  p.priceSimba {
+    margin-left: 300px;
+  }
+
+  p.describeSimba {
+    margin-left: 305px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .orderS {
+    margin-left: 400px;
+  }
+
+  img.picsDetails {
+    margin-left: 250px;
+  }
+
+  p.priceSimba {
+    margin-left: 400px;
+  }
+
+  p.describeSimba {
+    margin-left: 400px;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .orderS {
+    margin-left: 450px;
+  }
+
+  img.picsDetails {
+    margin-left: 300px;
+  }
+
+  p.priceSimba {
+    margin-left: 450px;
+  }
+
+  p.describeSimba {
+    margin-left: 460px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .orderS {
+    margin-left: 500px;
+  }
+
+  img.picsDetails {
+    margin-left: 350px;
+  }
+
+  p.priceSimba {
+    margin-left: 500px;
+  }
+
+  p.describeSimba {
+    margin-left: 500px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .orderS {
+    margin-left: 540px;
+  }
+
+  img.picsDetails {
+    margin-left: 400px;
+  }
+
+  p.priceSimba {
+    margin-left: 540px;
+  }
+
+  p.describeSimba {
+    margin-left: 550px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .orderS {
+    margin-left: 540px;
+  }
+
+  p.priceSimba {
+    margin-left: 540px;
+  }
+
+  p.describeSimba {
+    margin-left: 550px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .orderS {
+    margin-left: 550px;
+  }
+
+  p.priceSimba {
+    margin-left: 550px;
+  }
+
+  p.describeSimba {
+    margin-left: 550px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1904px) {
+  .orderS {
+    margin-left: 550px;
+  }
+
+  img.picsDetails {
+    margin-left: 400px;
+  }
+
+  p.priceSimba {
+    margin-left: 550px;
+  }
+
+  p.describeSimba {
+    margin-left: 560px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  img.picsDetails {
+    margin-left: 400px;
+  } */
+/* } */
+
+/* heart cake */
+@media screen and (max-width: 767px) {
+  .orderH {
+    margin-left: 190px;
+  }
+
+  p.priceHeartCake {
+    margin-left: 230px;
+  }
+
+  p.describeHeartCake {
+    margin-top: 10px;
+    margin-left: 170px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .orderH {
+    margin-left: 290px;
+  }
+
+  p.priceHeartCake {
+    margin-left: 330px;
+  }
+
+  p.describeHeartCake {
+    margin-top: 10px;
+    margin-left: 270px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .orderH {
+    margin-left: 270px;
+  }
+
+  p.priceHeartCake {
+    margin-left: 310px;
+  }
+
+  p.describeHeartCake {
+    margin-top: 10px;
+    margin-left: 250px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .orderH {
+    margin-left: 390px;
+  }
+
+  img.picsDetails {
+    margin-left: 260px;
+  }
+
+  p.priceHeartCake {
+    margin-left: 430px;
+  }
+
+  p.describeHeartCake {
+    margin-top: 10px;
+    margin-left: 370px;
+  }
+}
+
+@media screen and (min-width: 1264px) {
+  .orderH {
+    margin-left: 490px;
+  }
+
+  img.picsDetails {
+    margin-left: 350px;
+  }
+
+  p.priceHeartCake {
+    margin-left: 530px;
+  }
+
+  p.describeHeartCake {
+    margin-top: 10px;
+    margin-left: 470px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .orderH {
+    margin-left: 490px;
+  }
+
+  img.picsDetails {
+    margin-left: 350px;
+  }
+
+  p.priceHeartCake {
+    margin-left: 530px;
+  }
+
+  p.describeHeartCake {
+    margin-top: 10px;
+    margin-left: 470px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .orderH {
+    margin-left: 590px;
+  }
+
+  img.picsDetails {
+    margin-left: 450px;
+  }
+
+  p.priceHeartCake {
+    margin-left: 630px;
+  }
+
+  p.describeHeartCake {
+    margin-left: 570px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .orderH {
+    margin-left: 580px;
+  }
+
+  img.picsDetails {
+    margin-left: 450px;
+  }
+
+  p.priceHeartCake {
+    margin-left: 630px;
+  }
+
+  p.describeHeartCake {
+    margin-left: 570px;
+  }
+}
+
+/* puffs */
+@media screen and (max-width: 767px) {
+  p.pricepuffs {
+    margin-left: 170px;
+  }
+
+  p.describePuffs {
+    margin-left: 170px;
+    margin-top: 10px;
+  }
+
+  .orderP {
+    margin-left: 210px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  p.pricepuffs {
+    margin-left: 270px;
+  }
+
+  p.describePuffs {
+    margin-left: 270px;
+    margin-top: 10px;
+  }
+
+  .orderP {
+    margin-left: 310px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  p.pricepuffs {
+    margin-left: 245px;
+  }
+
+  p.describePuffs {
+    margin-left: 245px;
+    margin-top: 10px;
+  }
+
+  .orderP {
+    margin-left: 285px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  p.pricepuffs {
+    margin-left: 370px;
+  }
+
+  p.describePuffs {
+    margin-left: 370px;
+    margin-top: 10px;
+  }
+
+  .orderP {
+    margin-left: 405px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  p.pricepuffs {
+    margin-left: 470px;
+  }
+
+  p.describePuffs {
+    margin-left: 480px;
+    margin-top: 10px;
+  }
+
+  .orderP {
+    margin-left: 505px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  p.pricepuffs {
+    margin-left: 470px;
+  }
+
+  p.describePuffs {
+    margin-left: 475px;
+    margin-top: 10px;
+  }
+
+  .orderP {
+    margin-left: 510px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  p.pricepuffs {
+    margin-left: 470px;
+  }
+
+  p.describePuffs {
+    margin-left: 475px;
+    margin-top: 10px;
+  }
+
+  .orderP {
+    margin-left: 510px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  p.pricepuffs {
+    margin-left: 550px;
+  }
+
+  p.describePuffs {
+    margin-left: 555px;
+    margin-top: 10px;
+  }
+
+  .orderP {
+    margin-left: 595px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  p.pricepuffs {
+    margin-left: 550px;
+  }
+
+  p.describePuffs {
+    margin-left: 550px;
+    margin-top: 10px;
+  }
+
+  .orderP {
+    margin-left: 600px;
+  }
+}
+
+/* ofir cake */
+@media screen and (max-width: 767px) {
+  .orderO {
+    margin-left: 180px;
+    margin-top: -40px;
+  }
+
+  p.describeOfirCake {
+    margin-left: 190px;
+    margin-top: 5px;
+  }
+
+  p.priceOfirCake {
+    margin-left: 180px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .orderO {
+    margin-left: 275px;
+    margin-top: -40px;
+  }
+
+  p.describeOfirCake {
+    margin-left: 285px;
+  }
+
+  p.priceOfirCake {
+    margin-left: 270px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .orderO {
+    margin-left: 280px;
+    margin-top: -40px;
+  }
+
+  p.describeOfirCake {
+    margin-left: 288px;
+  }
+
+  p.priceOfirCake {
+    margin-left: 275px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .orderO {
+    margin-left: 400px;
+    margin-top: -40px;
+  }
+
+  p.describeOfirCake {
+    margin-left: 415px;
+  }
+
+  p.priceOfirCake {
+    margin-left: 400px;
+  }
+}
+
+@media screen and (min-width: 1264px) {
+  .orderO {
+    margin-left: 490px;
+    margin-top: -40px;
+  }
+
+  p.describeOfirCake {
+    margin-left: 500px;
+  }
+
+  p.priceOfirCake {
+    margin-left: 490px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .orderO {
+    margin-left: 590px;
+    margin-top: -40px;
+  }
+
+  p.describeOfirCake {
+    margin-left: 600px;
+  }
+
+  p.priceOfirCake {
+    margin-left: 590px;
+  }
+}
+
+@media screen and (min-width: 1792px) {
+  .orderO {
+    margin-left: 600px;
+    margin-top: -40px;
+  }
+
+  p.describeOfirCake {
+    margin-left: 610px;
+  }
+
+  p.priceOfirCake {
+    margin-left: 600px;
+  }
+}
+
+@media screen and (min-width: 1904px) {
+  .orderO {
+    margin-left: 600px;
+    margin-top: -40px;
+  }
+
+  p.describeOfirCake {
+    margin-left: 605px;
+  }
+
+  p.priceOfirCake {
+    margin-left: 595px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .orderO {
+    margin-left: 600px;
+    margin-top: -40px;
+  }
+
+  p.describeOfirCake {
+    margin-left: 615px;
+  }
+
+  p.priceOfirCake {
+    margin-left: 600px;
+  }
+}
+
+/* macaroons */
+
+@media screen and (max-width: 767px) {
+  .orderM {
+    margin-left: 190px;
+  }
+
+  p.priceMacaroons {
+    margin-left: 200px;
+    margin-top: 10px;
+  }
+
+  p.describeMacaroons {
+    margin-top: 5px;
+    margin-left: 120px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .orderM {
+    margin-left: 285px;
+  }
+
+  p.priceMacaroons {
+    margin-left: 295px;
+    margin-top: 10px;
+  }
+
+  p.describeMacaroons {
+    margin-top: 5px;
+    margin-left: 220px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .orderM {
+    margin-left: 410px;
+  }
+
+  p.priceMacaroons {
+    margin-left: 425px;
+    margin-top: 10px;
+  }
+
+  p.describeMacaroons {
+    margin-top: 5px;
+    margin-left: 340px;
+  }
+}
+
+@media screen and (min-width: 1264px) {
+  .orderM {
+    margin-left: 500px;
+  }
+
+  p.priceMacaroons {
+    margin-left: 510px;
+    margin-top: 10px;
+  }
+
+  p.describeMacaroons {
+    margin-top: 5px;
+    margin-left: 420px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .orderM {
+    margin-left: 500px;
+  }
+
+  p.priceMacaroons {
+    margin-left: 510px;
+    margin-top: 10px;
+  }
+
+  p.describeMacaroons {
+    margin-top: 5px;
+    margin-left: 425px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .orderM {
+    margin-left: 590px;
+  }
+
+  p.priceMacaroons {
+    margin-left: 600px;
+    margin-top: 10px;
+  }
+
+  p.describeMacaroons {
+    margin-top: 5px;
+    margin-left: 520px;
+  }
+}
+
+@media screen and (min-width: 1792px) {
+  .orderM {
+    margin-left: 595px;
+  }
+
+  p.priceMacaroons {
+    margin-left: 610px;
+    margin-top: 10px;
+  }
+
+  p.describeMacaroons {
+    margin-top: 5px;
+    margin-left: 525px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .orderM {
+    margin-left: 595px;
+  }
+
+  p.priceMacaroons {
+    margin-left: 610px;
+    margin-top: 10px;
+  }
+
+  p.describeMacaroons {
+    margin-top: 5px;
+    margin-left: 530px;
+  }
+}
+
+/* white cake */
+@media screen and (max-width: 767px) {
+  .orderWhiteCake {
+    margin-left: 190px;
+  }
+
+  p.priceWhiteCake {
+    margin-left: 215px;
+  }
+
+  p.describeWhiteCake {
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .orderWhiteCake {
+    margin-left: 280px;
+  }
+
+  p.priceWhiteCake {
+    margin-left: 310px;
+  }
+
+  p.describeWhiteCake {
+    margin-left: 200px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .orderWhiteCake {
+    margin-left: 400px;
+  }
+
+  p.priceWhiteCake {
+    margin-left: 430px;
+  }
+
+  p.describeWhiteCake {
+    margin-left: 300px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1264px) {
+  .orderWhiteCake {
+    margin-left: 480px;
+  }
+
+  p.priceWhiteCake {
+    margin-left: 520px;
+  }
+
+  p.describeWhiteCake {
+    margin-left: 400px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .orderWhiteCake {
+    margin-left: 485px;
+  }
+
+  p.priceWhiteCake {
+    margin-left: 520px;
+  }
+
+  p.describeWhiteCake {
+    margin-left: 400px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .orderWhiteCake {
+    margin-left: 600px;
+  }
+
+  p.priceWhiteCake {
+    margin-left: 630px;
+  }
+
+  p.describeWhiteCake {
+    margin-left: 495px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .orderWhiteCake {
+    margin-left: 595px;
+  }
+
+  p.priceWhiteCake {
+    margin-left: 625px;
+  }
+
+  p.describeWhiteCake {
+    margin-left: 495px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .orderWhiteCake {
+    margin-left: 595px;
+  }
+
+  p.priceWhiteCake {
+    margin-left: 630px;
+  }
+
+  p.describeWhiteCake {
+    margin-left: 495px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1792px) {
+  .orderWhiteCake {
+    margin-left: 595px;
+  }
+
+  p.priceWhiteCake {
+    margin-left: 625px;
+  }
+
+  p.describeWhiteCake {
+    margin-left: 495px;
+    margin-top: 10px;
+  }
+}
+
+/* red cake */
+@media screen and (max-width: 767px) {
+  .orderR {
+    margin-left: 170px;
+    margin-top: -40px;
+  }
+
+  p.priceRedCake {
+    margin-left: 200px;
+  }
+
+  p.describeRedCake {
+    margin-left: 110px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .orderR {
+    margin-left: 280px;
+    margin-top: -40px;
+  }
+
+  p.priceRedCake {
+    margin-left: 310px;
+  }
+
+  p.describeRedCake {
+    margin-left: 230px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .orderR {
+    margin-left: 280px;
+    margin-top: -40px;
+  }
+
+  p.priceRedCake {
+    margin-left: 310px;
+  }
+
+  p.describeRedCake {
+    margin-left: 220px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .orderR {
+    margin-left: 390px;
+    margin-top: -40px;
+  }
+
+  p.priceRedCake {
+    margin-left: 420px;
+  }
+
+  p.describeRedCake {
+    margin-left: 330px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1264px) {
+  .orderR {
+    margin-left: 485px;
+    margin-top: -40px;
+  }
+
+  p.priceRedCake {
+    margin-left: 520px;
+  }
+
+  p.describeRedCake {
+    margin-left: 420px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .orderR {
+    margin-left: 570px;
+    margin-top: -40px;
+  }
+
+  p.priceRedCake {
+    margin-left: 600px;
+  }
+
+  p.describeRedCake {
+    margin-left: 520px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .orderR {
+    margin-left: 580px;
+    margin-top: -40px;
+  }
+
+  p.priceRedCake {
+    margin-left: 620px;
+  }
+
+  p.describeRedCake {
+    margin-left: 520px;
+    margin-top: 10px;
+  }
+}
+
+img.gallery {
+  width: 350px;
+  height: 350px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+div.field {
+  margin-left: 870px;
+  margin-right: 50px;
+  direction: rtl;
+  width: 200px;
+}
+
+div.hoverPics img:hover {
+  box-shadow: 5px 5px 5px;
+}
+
+img.picsDetails {
+  margin-left: 350px;
+  margin-top: 10px;
+}
+
+p.describeAlphaphores {
+  margin-left: 440px;
+  margin-top: 10px;
+}
+
+p.priceAlphaphores {
+  margin-left: 460px;
+}
+
+.orderA {
+  margin-left: 465px;
+}
+
+.orderD {
+  margin-left: 470px;
+}
+
+p.describeDonats {
+  margin-left: 400px;
+  margin-top: 10px;
+}
+
+p.priceDonats {
+  margin-left: 370px;
+  margin-top: 10px;
+}
+
+p.priceSpecialDonats {
+  margin-left: 430px;
+}
+
+.orderH {
+  margin-left: 470px;
+}
+
+p.priceHeartCake {
+  margin-left: 500px;
+}
+
+p.describeHeartCake {
+  margin-left: 450px;
+}
+
+.orderM {
+  margin-left: 475px;
+}
+
+p.priceMacaroons {
+  margin-left: 490px;
+  margin-top: 10px;
+}
+
+p.describeMacaroons {
+  margin-left: 420px;
+}
+
+.orderO {
+  margin-left: 485px;
+  margin-top: -40px;
+}
+
+.orderP {
+  margin-left: 485px;
+  margin-top: -40px;
+}
+
+p.describeOfirCake {
+  margin-left: 490px;
+}
+
+p.pricepuffs {
+  margin-left: 445px;
+}
+
+p.describePuffs {
+  margin-left: 450px;
+  margin-top: 10px;
+}
+
+.orderR {
+  margin-left: 470px;
+  margin-top: -40px;
+}
+
+p.priceRedCake {
+  margin-left: 500px;
+}
+
+p.describeRedCake {
+  margin-left: 410px;
+  margin-top: 10px;
+}
+
+.orderS {
+  margin-left: 470px;
+}
+
+p.priceSimba {
+  margin-left: 470px;
+}
+
+p.describeSimba {
+  margin-left: 480px;
+  margin-top: 10px;
+}
+
+.orderWhiteCake {
+  margin-left: 475px;
+}
+
+p.priceWhiteCake {
+  margin-left: 500px;
+}
+
+p.describeWhiteCake {
+  margin-left: 400px;
+  margin-top: 10px;
+}
+
+img.donats {
+  margin-left: 350px;
+  margin-top: 10px;
+}
+
+p.priceOfirCake {
+  margin-left: 480px;
+}
+
+p.pricepuffs {
+  margin-left: 445px;
+}

@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* nav-bar */
+@media only screen and (max-width: 767px) {
+  .Nav {
+    width: 100%;
+  }
+
+  .FAQ {
+    margin-left: 250px;
+    margin-top: -40px;
+  }
+
+  .SignUp {
+    margin-left: 420px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 500px;
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Nav {
+    width: 100%;
+  }
+
+  .FAQ {
+    margin-left: 5px;
+  }
+
+  .SignUp {
+    margin-left: 325px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 405px;
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .Nav {
+    width: 100%;
+  }
+
+  .SignUp {
+    margin-left: 360px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 450px;
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 912px) {
+  .Nav {
+    width: 100%;
+  }
+
+  .SignUp {
+    margin-left: 470px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 550px;
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .SignUp {
+    margin-left: 530px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 600px;
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .Nav {
+    width: 100%;
+  }
+
+  .SignUp {
+    margin-left: 580px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 660px;
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .Nav {
+    width: 100%;
+  }
+
+  .SignUp {
+    margin-left: 700px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 800px;
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 1264px) {
+  .Nav {
+    width: 100%;
+  }
+
+  .SignUp {
+    margin-left: 820px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 900px;
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .Nav {
+    width: 100%;
+  }
+
+  .SignUp {
+    margin-left: 915px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 1000px;
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .Nav {
+    width: 100%;
+  }
+
+  .SignUp {
+    margin-left: 970px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 1050px;
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  .Nav {
+    width: 100%;
+  }
+
+  .SignUp {
+    margin-left: 1060px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 1150px;
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .Nav {
+    width: 100%;
+  }
+
+  .SignUp {
+    margin-left: 1100px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 1200px;
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 1680px) {
+  .Nav {
+    width: 100%;
+  }
+
+  .SignUp {
+    margin-left: 1200px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 1300px;
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 1792px) {
+  .Nav {
+    width: 100%;
+  }
+
+  .SignUp {
+    margin-left: 1300px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 1400px;
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 1904px) {
+  .SignUp {
+    margin-left: 1420px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 1500px;
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .Nav {
+    width: 100%;
+  }
+
+  .SignUp {
+    margin-left: 1470px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 1550px;
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .Nav {
+    width: 100%;
+  }
+
+  .SignUp {
+    margin-left: 2130px;
+    margin-top: -40px;
+  }
+
+  .login {
+    margin-left: 2200px;
+    margin-top: -40px;
+  }
+}
+
+.Nav {
+  background-color: black;
+  height: 40px;
+  width: 1265px;
+}
+
+.login {
+  margin-left: 1110px;
+  margin-top: -40px;
+}
+
+.SignUp {
+  margin-left: 1030px;
+  margin-top: -40px;
+}
+
+.logout-link {
+  margin-left: 1000px;
+  margin-top: -40px;
+  padding: 0;
+}
+
+.logout-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}

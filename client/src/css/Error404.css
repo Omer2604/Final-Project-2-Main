@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Estonia&family=Open+Sans:ital,wght@1,300&family=Square+Peg&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backgroundColor {
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/15/02/07/snack-2403881_1280.png");
+}
+
+.error404Contact {
+  margin-left: 450px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .error404Contact {
+    margin-left: 110px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .error404Contact {
+    margin-left: 250px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .error404Contact {
+    margin-left: 380px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 1264px) {
+  .error404Contact {
+    margin-left: 455px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .error404Contact {
+    margin-left: 455px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .error404Contact {
+    margin-left: 540px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  .error404Contact {
+    margin-left: 540px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .error404Contact {
+    margin-left: 540px;
+    margin-top: 10px;
+  }
+}

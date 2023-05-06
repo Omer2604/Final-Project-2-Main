@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Estonia&family=Open+Sans:ital,wght@1,300&family=Square+Peg&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backgroundColor {
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/15/02/07/snack-2403881_1280.png");
+}
+
+.accordion1 {
+  margin-top: 50px;
+  width: 700px;
+  margin-left: 300px;
+}
+
+.answer {
+  direction: rtl;
+}
+
+.accordion2 {
+  width: 700px;
+  margin-left: 100px;
+  margin-left: 300px;
+}
+
+.accordion3 {
+  width: 700px;
+  margin-left: 100px;
+  margin-left: 300px;
+}
+
+.accordion4 {
+  width: 700px;
+  margin-left: 100px;
+  margin-left: 300px;
+}
+
+.accordion5 {
+  width: 700px;
+  margin-left: 100px;
+  margin-left: 300px;
+}
+
+.accordion6 {
+  width: 700px;
+  margin-left: 100px;
+  margin-left: 300px;
+}
+
+.accordion7 {
+  width: 700px;
+  margin-left: 100px;
+  margin-left: 300px;
+}
+
+.accordion8 {
+  width: 700px;
+  margin-left: 100px;
+  margin-left: 300px;
+}
+
+@media only screen and (max-width: 767px) {
+  .accordion {
+    margin-right: -100px;
+    margin-left: -290px;
+  }
+
+  .accordion1 {
+    width: 300px;
+  }
+
+  .answer {
+    direction: rtl;
+  }
+
+  .accordion2 {
+    width: 300px;
+  }
+
+  .accordion3 {
+    width: 300px;
+  }
+
+  .accordion4 {
+    width: 300px;
+  }
+
+  .accordion5 {
+    width: 300px;
+  }
+
+  .accordion6 {
+    width: 300px;
+  }
+
+  .accordion7 {
+    width: 300px;
+  }
+
+  .accordion8 {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .accordion {
+    margin-right: -100px;
+    margin-left: -265px;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .accordion {
+    margin-right: -100px;
+    margin-left: -240px;
+  }
+}
+
+@media only screen and (min-width: 912px) {
+  .accordion {
+    margin-right: -100px;
+    margin-left: -180px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .accordion {
+    margin-right: -100px;
+    margin-left: -170px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .accordion {
+    margin-right: -100px;
+    margin-left: -100px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .accordion {
+    margin-right: -100px;
+    margin-left: -60px;
+  }
+}
+
+@media only screen and (min-width: 1264px) {
+  .accordion {
+    margin-right: -100px;
+    margin-left: -50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .accordion {
+    margin-right: -100px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .accordion {
+    margin-right: -100px;
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .accordion {
+    margin-right: -100px;
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .accordion {
+    margin-right: -100px;
+    margin-left: 150px;
+  }
+}
+
+@media only screen and (min-width: 1680px) {
+  .accordion {
+    margin-right: -100px;
+    margin-left: 200px;
+  }
+}
+
+@media only screen and (min-width: 1792px) {
+  .accordion {
+    margin-right: -100px;
+    margin-left: 200px;
+  }
+}
+
+@media only screen and (min-width: 1904px) {
+  .accordion {
+    margin-right: -100px;
+    margin-left: 300px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .accordion {
+    margin-right: -100px;
+    margin-left: 630px;
+  }
+}

@@ -1,0 +1,801 @@
+@import url("https://fonts.googleapis.com/css2?family=Estonia&family=Open+Sans:ital,wght@1,300&family=Square+Peg&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backgroundColor {
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/15/02/07/snack-2403881_1280.png");
+}
+
+/* contact */
+
+.LabelName {
+  margin-left: 795px;
+  margin-top: 10px;
+}
+
+.NameField {
+  margin-left: 400px;
+  direction: rtl;
+}
+
+.LabelMailContact {
+  margin-left: 795px;
+}
+
+.EmailFieldContact {
+  margin-left: 400px;
+  direction: rtl;
+}
+
+.LabelPhone {
+  margin-left: 785px;
+}
+
+.PhoneField {
+  margin-left: 400px;
+  direction: rtl;
+}
+
+.SelectField {
+  margin-left: 670px;
+}
+
+select.choice {
+  margin-left: 750px;
+  direction: rtl;
+}
+
+p.remark {
+  margin-left: 380px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.LabelSubject {
+  margin-left: 680px;
+}
+
+.SubjectField {
+  margin-left: 400px;
+  direction: rtl;
+}
+
+.LabelRemarks {
+  margin-left: 743px;
+}
+
+textarea.RemarksField {
+  margin-left: 620px;
+  direction: rtl;
+}
+
+.buttonSend {
+  margin-left: 765px;
+  margin-top: 10px;
+}
+
+p.contactAnother {
+  margin-left: 420px;
+  margin-top: 15px;
+}
+
+div.contactAnotherImg {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+/* AB */
+
+@media only screen and (max-width: 767px) {
+  .LabelName {
+    margin-left: 400px;
+  }
+
+  .NameField {
+    margin-left: 230px;
+  }
+
+  .LabelMailContact {
+    margin-left: 400px;
+  }
+
+  .EmailFieldContact {
+    margin-left: 230px;
+    direction: rtl;
+  }
+
+  .LabelPhone {
+    margin-left: 390px;
+  }
+
+  .PhoneField {
+    margin-left: 230px;
+  }
+
+  .SelectField {
+    margin-left: 270px;
+    margin-top: 10px;
+  }
+
+  select.choice {
+    margin-left: 350px;
+    direction: rtl;
+  }
+
+  p.remark {
+    margin-left: 140px;
+    font-size: 10px;
+  }
+
+  .LabelSubject {
+    margin-left: 300px;
+  }
+
+  .SubjectField {
+    margin-left: 250px;
+  }
+
+  .LabelRemarks {
+    margin-left: 350px;
+  }
+
+  textarea.RemarksField {
+    margin-left: 250px;
+  }
+
+  .buttonSend {
+    margin-left: 380px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  p.contactAnother {
+    margin-left: 200px;
+  }
+
+  div.contactAnotherImg {
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .LabelName {
+    margin-left: 460px;
+  }
+
+  .NameField {
+    margin-left: 230px;
+  }
+
+  .LabelMailContact {
+    margin-left: 455px;
+  }
+
+  .EmailFieldContact {
+    margin-left: 230px;
+    direction: rtl;
+  }
+
+  .LabelPhone {
+    margin-left: 445px;
+  }
+
+  .PhoneField {
+    margin-left: 230px;
+  }
+
+  .SelectField {
+    margin-left: 340px;
+  }
+
+  select.choice {
+    margin-left: 415px;
+    direction: rtl;
+  }
+
+  p.remark {
+    margin-left: 140px;
+  }
+
+  .LabelSubject {
+    margin-left: 350px;
+  }
+
+  .SubjectField {
+    margin-left: 250px;
+  }
+
+  .LabelRemarks {
+    margin-left: 415px;
+  }
+
+  textarea.RemarksField {
+    margin-left: 300px;
+  }
+
+  .buttonSend {
+    margin-left: 440px;
+    margin-top: 10px;
+  }
+
+  p.contactAnother {
+    margin-left: 200px;
+  }
+
+  div.contactAnotherImg {
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .LabelName {
+    margin-left: 580px;
+  }
+
+  .NameField {
+    margin-left: 300px;
+  }
+
+  .LabelMailContact {
+    margin-left: 580px;
+  }
+
+  .EmailFieldContact {
+    margin-left: 300px;
+    direction: rtl;
+  }
+
+  .LabelPhone {
+    margin-left: 580px;
+  }
+
+  .PhoneField {
+    margin-left: 300px;
+  }
+
+  .SelectField {
+    margin-left: 470px;
+  }
+
+  select.choice {
+    margin-left: 550px;
+    direction: rtl;
+    margin-top: 5px;
+  }
+
+  p.remark {
+    margin-left: 250px;
+    margin-top: 10px;
+  }
+
+  .LabelSubject {
+    margin-left: 520px;
+  }
+
+  .SubjectField {
+    margin-left: 350px;
+  }
+
+  .LabelRemarks {
+    margin-left: 550px;
+  }
+
+  textarea.RemarksField {
+    margin-left: 450px;
+  }
+
+  .buttonSend {
+    margin-left: 600px;
+    margin-top: 10px;
+  }
+
+  p.contactAnother {
+    margin-left: 350px;
+  }
+
+  div.contactAnotherImg {
+    margin-left: 180px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .LabelName {
+    margin-left: 610px;
+  }
+
+  .NameField {
+    margin-left: 300px;
+  }
+
+  .LabelMailContact {
+    margin-left: 600px;
+  }
+
+  .EmailFieldContact {
+    margin-left: 300px;
+    direction: rtl;
+  }
+
+  .LabelPhone {
+    margin-left: 600px;
+  }
+
+  .PhoneField {
+    margin-left: 300px;
+  }
+
+  .SelectField {
+    margin-left: 500px;
+  }
+
+  select.choice {
+    margin-left: 570px;
+    direction: rtl;
+  }
+
+  p.remark {
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+
+  .LabelSubject {
+    margin-left: 500px;
+  }
+
+  .SubjectField {
+    margin-left: 300px;
+  }
+
+  .LabelRemarks {
+    margin-left: 300px;
+    display: none;
+  }
+
+  textarea.RemarksField {
+    margin-left: 450px;
+    margin-top: 25px;
+  }
+
+  .buttonSend {
+    margin-left: 590px;
+    margin-top: 10px;
+  }
+
+  p.contactAnother {
+    margin-left: 300px;
+  }
+
+  div.contactAnotherImg {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 1264px) {
+  .LabelName {
+    margin-left: 790px;
+  }
+
+  .NameField {
+    margin-left: 400px;
+  }
+
+  .LabelMailContact {
+    margin-left: 780px;
+  }
+
+  .EmailFieldContact {
+    margin-left: 400px;
+    direction: rtl;
+  }
+
+  .LabelPhone {
+    margin-left: 770px;
+  }
+
+  .PhoneField {
+    margin-left: 400px;
+  }
+
+  .SelectField {
+    margin-left: 670px;
+  }
+
+  select.choice {
+    margin-left: 750px;
+    direction: rtl;
+  }
+
+  p.remark {
+    margin-left: 400px;
+    margin-top: 20px;
+  }
+
+  .LabelSubject {
+    margin-left: 700px;
+  }
+
+  .SubjectField {
+    margin-left: 430px;
+  }
+
+  .LabelRemarks {
+    display: none;
+  }
+
+  textarea.RemarksField {
+    margin-left: 650px;
+    margin-top: 25px;
+  }
+
+  .buttonSend {
+    margin-left: 780px;
+    margin-top: 10px;
+  }
+
+  p.contactAnother {
+    margin-left: 550px;
+  }
+
+  div.contactAnotherImg {
+    margin-left: 200px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .LabelName {
+    margin-left: 820px;
+  }
+
+  .NameField {
+    margin-left: 400px;
+  }
+
+  .LabelMailContact {
+    margin-left: 810px;
+  }
+
+  .EmailFieldContact {
+    margin-left: 400px;
+    direction: rtl;
+  }
+
+  .LabelPhone {
+    margin-left: 800px;
+  }
+
+  .PhoneField {
+    margin-left: 400px;
+  }
+
+  .SelectField {
+    margin-left: 710px;
+  }
+
+  select.choice {
+    margin-left: 790px;
+    direction: rtl;
+  }
+
+  p.remark {
+    margin-left: 400px;
+    margin-top: 20px;
+  }
+
+  .LabelSubject {
+    margin-left: 730px;
+  }
+
+  .SubjectField {
+    margin-left: 430px;
+  }
+
+  .LabelRemarks {
+    display: none;
+  }
+
+  textarea.RemarksField {
+    margin-left: 700px;
+    margin-top: 25px;
+  }
+
+  .buttonSend {
+    margin-left: 830px;
+    margin-top: 10px;
+  }
+
+  p.contactAnother {
+    margin-left: 550px;
+  }
+
+  div.contactAnotherImg {
+    margin-left: 180px;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  .LabelName {
+    margin-left: 920px;
+  }
+
+  .NameField {
+    margin-left: 450px;
+  }
+
+  .LabelMailContact {
+    margin-left: 920px;
+  }
+
+  .EmailFieldContact {
+    margin-left: 450px;
+    direction: rtl;
+  }
+
+  .LabelPhone {
+    margin-left: 910px;
+  }
+
+  .PhoneField {
+    margin-left: 450px;
+  }
+
+  .SelectField {
+    margin-left: 810px;
+  }
+
+  select.choice {
+    margin-left: 880px;
+    direction: rtl;
+  }
+
+  p.remark {
+    margin-left: 500px;
+    margin-top: 20px;
+  }
+
+  .LabelSubject {
+    margin-left: 840px;
+  }
+
+  .SubjectField {
+    margin-left: 490px;
+  }
+
+  .LabelRemarks {
+    display: none;
+  }
+
+  textarea.RemarksField {
+    margin-left: 800px;
+    margin-top: 25px;
+  }
+
+  .buttonSend {
+    margin-left: 930px;
+    margin-top: 10px;
+  }
+
+  p.contactAnother {
+    margin-left: 670px;
+  }
+
+  div.contactAnotherImg {
+    margin-left: 180px;
+  }
+}
+
+@media only screen and (min-width: 1680px) {
+  .LabelName {
+    margin-left: 1030px;
+  }
+
+  .NameField {
+    margin-left: 500px;
+  }
+
+  .LabelMailContact {
+    margin-left: 1030px;
+  }
+
+  .EmailFieldContact {
+    margin-left: 500px;
+    direction: rtl;
+  }
+
+  .LabelPhone {
+    margin-left: 1030px;
+  }
+
+  .PhoneField {
+    margin-left: 500px;
+  }
+
+  .SelectField {
+    margin-left: 900px;
+  }
+
+  select.choice {
+    margin-left: 970px;
+    direction: rtl;
+  }
+
+  p.remark {
+    margin-left: 600px;
+    margin-top: 20px;
+  }
+
+  .LabelSubject {
+    margin-left: 930px;
+  }
+
+  .SubjectField {
+    margin-left: 500px;
+  }
+
+  .LabelRemarks {
+    display: none;
+  }
+
+  textarea.RemarksField {
+    margin-left: 870px;
+    margin-top: 25px;
+  }
+
+  .buttonSend {
+    margin-left: 1000px;
+    margin-top: 10px;
+  }
+
+  p.contactAnother {
+    margin-left: 750px;
+  }
+
+  div.contactAnotherImg {
+    margin-left: 180px;
+  }
+}
+
+@media only screen and (min-width: 1792px) {
+  .LabelName {
+    margin-left: 1120px;
+  }
+
+  .NameField {
+    margin-left: 550px;
+  }
+
+  .LabelMailContact {
+    margin-left: 1120px;
+  }
+
+  .EmailFieldContact {
+    margin-left: 550px;
+    direction: rtl;
+  }
+
+  .LabelPhone {
+    margin-left: 1110px;
+  }
+
+  .PhoneField {
+    margin-left: 550px;
+  }
+
+  .SelectField {
+    margin-left: 1000px;
+  }
+
+  select.choice {
+    margin-left: 1080px;
+    direction: rtl;
+  }
+
+  p.remark {
+    margin-left: 700px;
+    margin-top: 20px;
+  }
+
+  .LabelSubject {
+    margin-left: 1030px;
+  }
+
+  .SubjectField {
+    margin-left: 570px;
+  }
+
+  .LabelRemarks {
+    display: none;
+  }
+
+  textarea.RemarksField {
+    margin-left: 970px;
+    margin-top: 25px;
+  }
+
+  .buttonSend {
+    margin-left: 1100px;
+    margin-top: 10px;
+  }
+
+  p.contactAnother {
+    margin-left: 850px;
+  }
+
+  div.contactAnotherImg {
+    margin-left: 180px;
+  }
+}
+
+@media only screen and (min-width: 1904px) {
+  .LabelName {
+    margin-left: 1200px;
+  }
+
+  .NameField {
+    margin-left: 600px;
+  }
+
+  .LabelMailContact {
+    margin-left: 1200px;
+  }
+
+  .EmailFieldContact {
+    margin-left: 600px;
+    direction: rtl;
+  }
+
+  .LabelPhone {
+    margin-left: 1200px;
+  }
+
+  .PhoneField {
+    margin-left: 600px;
+  }
+
+  .SelectField {
+    margin-left: 1070px;
+  }
+
+  select.choice {
+    margin-left: 1150px;
+    direction: rtl;
+  }
+
+  p.remark {
+    margin-left: 800px;
+    margin-top: 20px;
+  }
+
+  .LabelSubject {
+    margin-left: 1120px;
+  }
+
+  .SubjectField {
+    margin-left: 630px;
+  }
+
+  .LabelRemarks {
+    display: none;
+  }
+
+  textarea.RemarksField {
+    margin-left: 1060px;
+    margin-top: 25px;
+  }
+
+  .buttonSend {
+    margin-left: 1200px;
+    margin-top: 10px;
+  }
+
+  p.contactAnother {
+    margin-left: 940px;
+  }
+
+  div.contactAnotherImg {
+    margin-left: 180px;
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fancyapps/ui": "^4.0.26",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "0.2.0",
+    "@googlemaps/react-wrapper": "^1.1.32",
+    "@testing-library/dom": "^8.18.1",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.2.3",
+    "emailjs-com": "^3.2.0",
+    "http": "^0.0.1-security",
+    "i": "^0.3.7",
+    "joi-browser": "^13.4.0",
+    "jwt-decode": "^3.1.2",
+    "npm": "^8.13.2",
+    "photoswipe": "^5.2.4",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.0.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.0.0",
+    "react-lightbox-component": "^1.2.1",
+    "react-photoswipe-gallery": "^2.0.4",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^9.0.0",
+    "sweetalert2": "^11.4.35",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/code-frame": "^7.18.6"
+  }
+}
