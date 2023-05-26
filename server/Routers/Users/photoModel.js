@@ -1,26 +1,39 @@
 const mongoose = require("mongoose");
 
-const { ObjectId } = mongoose.Types;
-
-const photoSchema = new mongoose.Schema({
-  likes: {
-    type: Array,
-    required: false,
-    minlength: 0,
-    maxlength: 1,
-  },
-  _id: {
-    type: ObjectId,
-    required: true,
-  },
-  img: {
-    url: { type: String, required: true },
-    alt: { type: String, required: true },
-  },
-  createdAt: { type: Date, default: Date.now },
-  isAdmin: { type: Boolean, default: false },
+mongoose.connect("mongodb://localhost:27017/your-database-name", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
 });
 
-const Photo = mongoose.model("Photo", photoSchema);
+const Schema = mongoose.Schema;
 
-module.exports = Photo;
+const ImageSchema = new Schema({
+  name: String,
+  src: String,
+  alt: String,
+  description: String,
+  prices: [
+    {
+      diameter: Number,
+      price: Number,
+    },
+  ],
+});
+
+const Image = mongoose.model("Image", ImageSchema);
+
+const image = new Image({
+  name: "alphaphores",
+  src: "/assets/images/alphaphores.png",
+  alt: "alphaphores",
+  description: "עוגת מוס אלפחורס וריבת חלב",
+  prices: [{ diameter: 20 / 22 / 24, price: 250 / 300 / 350 }],
+});
+
+image.save((err) => {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log("Image document saved successfully!");
+  }
+});

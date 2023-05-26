@@ -15,7 +15,7 @@ const WhiteCake = () => {
         <div className="hoverPics">
           <img
             className="picsDetails"
-            src="/assets/images/white cake.png"
+            src="/assets/images/whiteCake.png"
             alt="white cake"
           />
           <p className="describeWhiteCake">

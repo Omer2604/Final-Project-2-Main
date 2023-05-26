@@ -4,7 +4,10 @@ import { getJWT } from "./userService";
 
 axios.interceptors.request.use(
   (config) => {
-    config.headers.common["x-auth-token"] = getJWT();
+    const token = getJWT();
+    if (token) {
+      config.headers.common["x-auth-token"] = token;
+    }
     return config;
   },
   (error) => {

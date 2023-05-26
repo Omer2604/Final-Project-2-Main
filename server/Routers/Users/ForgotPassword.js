@@ -42,20 +42,20 @@ router.get("/", (req, res) => {
   });
 });
 
-// router.post("/", (req, res) => {
-//   let { email, newPass } = req.query;
-//   bcrypt.createHash(newPass).then((hashedPass) => {
-//     UserModel.updateUserPassword(email, hashedPass)
-//       .then((updateRes) => {
-//         res.statusCode = 200;
-//         res.json({ msg: updateRes });
-//       })
-//       .catch((e) => {
-//         res.statusCode = 500;
-//         console.log(e);
-//         res.json({ msg: "Error" });
-//       });
-//   });
-// });
+router.post("/", (req, res) => {
+  let { email, newPass } = req.query;
+  bcrypt.createHash(newPass).then((hashedPass) => {
+    UserModel.updateUserPassword(email, hashedPass)
+      .then((updateRes) => {
+        res.statusCode = 200;
+        res.json({ msg: updateRes });
+      })
+      .catch((e) => {
+        res.statusCode = 500;
+        console.log(e);
+        res.json({ msg: "Error" });
+      });
+  });
+});
 
 module.exports = router;

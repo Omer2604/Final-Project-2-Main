@@ -35,8 +35,9 @@ class Gallery extends Component {
                 className="gallery"
                 src="/assets/images/donats.png"
                 alt="donats"
-                title="סופגניות"
+                name="סופגניות"
                 description="סופגניות עבור חנוכה בלבד"
+                id="6470efde79abf06ff44d3db0"
               />
             </a>
             <a href="alphaphoresDetails">
@@ -44,6 +45,9 @@ class Gallery extends Component {
                 className="gallery"
                 src="/assets/images/alphaphores.png"
                 alt="alphaphores"
+                id="64707da379abf06ff44d3dac"
+                name="עוגת אלפחורס"
+                description="עוגת מוס אלפחורס עם ריבת חלב"
               />
             </a>
             <a href="simbaDetails">
@@ -51,13 +55,19 @@ class Gallery extends Component {
                 className="gallery"
                 src="/assets/images/simba.png"
                 alt="simba"
+                id="6470efe379abf06ff44d3db1"
+                name="עוגת סימבה"
+                description="עוגת מוס ליום הולדת בצורת סימבה"
               />
             </a>
             <a href="heartCakeDetails">
               <img
                 className="gallery"
-                src="/assets/images/heart cake.png"
+                src="/assets/images/heartCake.png"
                 alt="heart cake"
+                id="6470efe679abf06ff44d3db2"
+                name="עוגת לב"
+                description="בצק שקדים פריך עם שוקולד"
               />
             </a>
             <a href="puffsDetails">
@@ -65,13 +75,19 @@ class Gallery extends Component {
                 className="gallery"
                 src="/assets/images/puffs.png"
                 alt="puffs"
+                id="6470efe979abf06ff44d3db3"
+                name="פחזניות"
+                description="פחזניות"
               />
             </a>
             <a href="ofirCakeDetails">
               <img
                 className="gallery"
-                src="/assets/images/ofir cake.png"
+                src="/assets/images/ofirCake.png"
                 alt="ofir cake"
+                id="6470efef79abf06ff44d3db4"
+                name="עוגת מוס ליום הולדת"
+                description="עוגת מוס ליום הולדת"
               />
             </a>
             <a href="macaroonsDetails">
@@ -79,20 +95,29 @@ class Gallery extends Component {
                 className="gallery"
                 src="/assets/images/macaroon.png"
                 alt="macaroons"
+                id="6470eff179abf06ff44d3db5"
+                name="מקרונים"
+                description="מקרונים בטעמי פסיפלורה, פטל ופירות יער"
               />
             </a>
             <a href="whiteCakeDetails">
               <img
                 className="gallery"
-                src="/assets/images/white cake.png"
+                src="/assets/images/whiteCake.png"
                 alt="whiteCake"
+                id="6470eff579abf06ff44d3db6"
+                name="עוגת מוס עם שוקולד לבן"
+                description="עוגת מוס שוקולד לבן ושמנת בעיטורי נשיקות וקקאו"
               />
             </a>
             <a href="redCakeDetails">
               <img
                 className="gallery"
-                src="/assets/images/red cake.png"
+                src="/assets/images/redCake.png"
                 alt="redcake"
+                id="6470eff879abf06ff44d3db7"
+                name="עוגת גבינה"
+                description="עוגת גבינה וג'לי תותים עם פירות יער מעל"
               />
             </a>
           </div>

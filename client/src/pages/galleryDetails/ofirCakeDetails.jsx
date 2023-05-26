@@ -15,7 +15,7 @@ const OfirCake = () => {
         <div className="hoverPics">
           <img
             className="picsDetails"
-            src="/assets/images/ofir cake.png"
+            src="/assets/images/ofirCake.png"
             alt="ofir cake"
           />
           <p className="describeOfirCake">עוגת מוס ליום הולדת</p>

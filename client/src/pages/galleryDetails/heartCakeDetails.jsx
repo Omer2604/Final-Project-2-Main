@@ -15,7 +15,7 @@ const HeartCake = () => {
         <div className="hoverPics">
           <img
             className="picsDetails"
-            src="/assets/images/heart cake.png"
+            src="/assets/images/heartCake.png"
             alt="heart cake"
           />
           <p className="describeHeartCake">בצק שקדים פריך עם שוקולד</p>

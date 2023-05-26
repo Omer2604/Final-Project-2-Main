@@ -24,6 +24,7 @@ import AdminSignUp from "./pages/AdminSignUp";
 import Logout from "./pages/Logout";
 import "react-toastify/dist/ReactToastify.css";
 import React from "react";
+import Survey from "./pages/Survey";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
           <Route path="/NewPassword" element={<NewPassword />} />
           <Route path="/AdminSignUp" element={<AdminSignUp />} />
           <Route path="/Logout" element={<Logout />} />
+          <Route path="/Survey" element={<Survey />} />
         </Routes>
       </main>
       <ToastContainer />

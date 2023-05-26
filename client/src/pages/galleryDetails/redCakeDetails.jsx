@@ -14,7 +14,7 @@ const redCake = () => {
         <div className="hoverPics">
           <img
             className="picsDetails"
-            src="/assets/images/red cake.png"
+            src="/assets/images/redCake.png"
             alt="red cake"
           />
           <p className="describeRedCake">

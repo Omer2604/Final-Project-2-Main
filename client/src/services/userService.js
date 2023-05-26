@@ -27,12 +27,10 @@ export const logout = () => {
   return (window.location = "/");
 };
 
-export const resetPassword = (email) =>
-  http.post(` http://localhost:8181/api/users/reset?email=` + email);
-
-export const newPassword = (email, newPass) =>
-  http.post(
-    `http://localhost:8181/api/users/reset?email=${email}&newPass=${newPass}`
-  );
+export const newPassword = (email, password) =>
+  http.put(`http://localhost:8181/api/users/updatePassword`, {
+    email,
+    password,
+  });
 
 export const getJWT = () => localStorage.getItem("token");

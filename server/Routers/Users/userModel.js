@@ -34,6 +34,7 @@ const userSchema = new mongoose.Schema({
   },
   createdAt: { type: Date, default: Date.now },
   isAdmin: { type: Boolean, default: false },
+  toggleState: { type: Boolean, default: false }, // Add this line
 });
 
 const User = mongoose.model("User", userSchema);

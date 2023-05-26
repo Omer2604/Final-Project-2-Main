@@ -9,17 +9,14 @@ class HomePage extends Component {
   };
 
   componentDidMount() {
-    // Update the state every second
     this.timerID = setInterval(() => this.tick(), 1000);
   }
 
   componentWillUnmount() {
-    // Stop updating the state when the component unmounts
     clearInterval(this.timerID);
   }
 
   tick() {
-    // Update the state with the current time
     this.setState({
       currentTime: new Date(),
     });
@@ -54,7 +51,7 @@ class HomePage extends Component {
         <a href="heartCakeDetails">
           <img
             className="pic"
-            src="/assets/images/heart cake.png"
+            src="/assets/images/heartCake.png"
             alt="heart cake"
           />
         </a>

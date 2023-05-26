@@ -4,10 +4,14 @@ import Form from "../components/Form/form";
 import "../css/NewPassword.css";
 import Joi from "joi-browser";
 import { toast } from "react-toastify";
+import { newPassword } from "../services/userService";
+// import { Navigate } from "react-router-dom";
+// import { getCurrentUser } from "../services/userService";
 
 class NewPassword extends Form {
   state = {
     data: {
+      email: "",
       password: "",
     },
     errors: {},
@@ -15,17 +19,20 @@ class NewPassword extends Form {
 
   schema = {
     password: Joi.string()
-      .regex(/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]+4)(?=.*[!@#$%^&*])(?=.{8,})/)
+      .regex(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d{4,})(?=.*[!@#$%^&*])(?=.{8,})/)
       .required()
       .min(8),
+
+    email: Joi.string()
+      .required()
+      .email({ minDomainSegments: 2, tlds: { allow: ["com", "net", "org"] } }),
   };
 
   doSubmit = async () => {
     try {
-      const { password } = this.state.data;
-      let email = window.location.search.split("email=")[1];
-      if (window.location.search && email) {
-        await NewPassword(email, password);
+      const { email, password } = this.state.data;
+      if (email) {
+        await newPassword(email, password);
         window.location = "/";
         toast.success(`הסיסמה שונתה בהצלחה`);
       }
@@ -51,9 +58,10 @@ class NewPassword extends Form {
             <form
               onSubmit={this.handleSubmit}
               autoComplete="off"
-              method="POST"
+              method="PUT"
               className="field"
             >
+              {this.renderInput("email", "אימייל:", "email")}
               {this.renderInput("password", "סיסמה:", "password")}
               {this.renderButton("שנה סיסמה")}
             </form>
