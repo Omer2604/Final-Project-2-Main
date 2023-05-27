@@ -58,6 +58,10 @@ class HomePage extends Component {
         <a href="puffsDetails">
           <img className="pic" src="/assets/images/puffs.png" alt="puffs" />
         </a>
+        <p className="survey">
+          {" "}
+          <a href="/survey"> רוצים להגיד לנו מה אתם חושבים עלינו? לחצו כאן </a>
+        </p>
       </React.Fragment>
     );
   }
